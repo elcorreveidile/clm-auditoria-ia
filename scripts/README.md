@@ -25,15 +25,29 @@ cd scripts
 pip3 install -r requirements.txt
 ```
 
-### 3. Obtener API Key de Formspree (Opcional)
+### 3. Obtener Datos del Formulario
 
-Solo necesario si quieres exportar datos automáticamente:
+**🆓 OPCIÓN GRATIS (Recomendada):**
 
-1. Ir a https://formspree.io/dashboard
-2. Seleccionar el formulario `mjgalypd`
-3. Settings → API Keys
-4. Crear nueva API Key
-5. Copiar la key
+```bash
+# 1. Exportar datos manualmente desde Formspree
+#    (Ver: EXPORTAR_MANUAL_GRATIS.md)
+
+# 2. Usar el analizador interactivo
+python3 scripts/analizador_manual.py
+```
+
+**🔑 OPCIÓN CON API (Requiere suscripción):**
+
+```bash
+# 1. Obtener API Key de Formspree
+#    https://formspree.io/dashboard → Settings → API Keys
+
+# 2. Exportar automáticamente
+python3 scripts/exportar_formspree.py --api-key TU_API_KEY
+```
+
+**💡 Ver EXPORTAR_MANUAL_GRATIS.md para instrucciones detalladas de exportación manual.**
 
 ---
 
