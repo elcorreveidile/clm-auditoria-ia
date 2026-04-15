@@ -105,9 +105,9 @@
                 <span class="area-option__icon">⌨️</span>
                 <span class="area-option__info"><span class="area-option__label">Programación y Desarrollo</span><span class="area-option__desc">Desarrollo de software y plataformas digitales</span></span>
               </label>
-              <label class="area-option"><input type="radio" name="area_trabajo" value="biblioteca" data-camino="disenyo">
+              <label class="area-option"><input type="radio" name="area_trabajo" value="biblioteca" data-camino="biblioteca">
                 <span class="area-option__icon">📚</span>
-                <span class="area-option__info"><span class="area-option__label">Biblioteca</span><span class="area-option__desc">Gestión de fondos y servicios bibliotecarios</span></span>
+                <span class="area-option__info"><span class="area-option__label">Biblioteca</span><span class="area-option__desc">Gestión de fondos, catálogo y servicios bibliotecarios</span></span>
               </label>
               <label class="area-option"><input type="radio" name="area_trabajo" value="direccion" data-camino="direccion">
                 <span class="area-option__icon">🎯</span>
@@ -1154,6 +1154,228 @@
         </div>
 
         <!-- ══════════════════════════════════════════
+             CAMINO I: BIBLIOTECA
+             Secciones: B1, B2, B3
+        ══════════════════════════════════════════ -->
+
+        <!-- B1: Uso real de IA en Biblioteca -->
+        <div class="q-section camino-biblioteca" id="section-B1">
+          <div class="q-section__header">
+            <div class="q-section__letter q-section__letter--B">2</div>
+            <div class="q-section__info">
+              <p class="q-section__name">Tu uso real de la IA</p>
+              <p class="q-section__desc">Qué estás haciendo ya, sin tecnicismos</p>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 3</p>
+            <p class="q-block__text">¿Qué tareas realizas principalmente en la biblioteca del CLM?</p>
+            <div class="q-options q-options--grid">
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_tareas" value="Atención presencial"><span class="q-option__box"></span><span class="q-option__label">Atención presencial a usuarios</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_tareas" value="Préstamos"><span class="q-option__box"></span><span class="q-option__label">Gestión de préstamos y devoluciones</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_tareas" value="Catalogación"><span class="q-option__box"></span><span class="q-option__label">Catalogación y clasificación de fondos</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_tareas" value="Adquisiciones"><span class="q-option__box"></span><span class="q-option__label">Selección y adquisición de materiales</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_tareas" value="Reservas"><span class="q-option__box"></span><span class="q-option__label">Gestión de reservas y espacios de estudio</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_tareas" value="Referencia"><span class="q-option__box"></span><span class="q-option__label">Servicios de información y referencia</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_tareas" value="Fondos digitales"><span class="q-option__box"></span><span class="q-option__label">Gestión de recursos electrónicos y bases de datos</span></label>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 4</p>
+            <p class="q-block__text">¿Qué tipo de materiales gestionas principalmente?</p>
+            <div class="q-options q-options--grid">
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_materiales" value="Libros ELE"><span class="q-option__box"></span><span class="q-option__label">Libros de texto ELE</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_materiales" value="Literatura"><span class="q-option__box"></span><span class="q-option__label">Literatura y ficción</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_materiales" value="Materiales didácticos"><span class="q-option__box"></span><span class="q-option__label">Materiales didácticos y gramáticas</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_materiales" value="Películas"><span class="q-option__box"></span><span class="q-option__label">Películas y series</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_materiales" value="Audio"><span class="q-option__box"></span><span class="q-option__label">Materiales audio (CD, podcasts)</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_materiales" value="Prensa"><span class="q-option__box"></span><span class="q-option__label">Prensa y revistas</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_materiales" value="Recursos digitales"><span class="q-option__box"></span><span class="q-option__label">Recursos digitales y bases de datos</span></label>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 5</p>
+            <p class="q-block__text">¿Has usado alguna vez herramientas de IA en tu trabajo en la biblioteca?</p>
+            <div class="q-options">
+              <label class="q-option"><input type="radio" name="bib_uso_ia" value="No nunca"><span class="q-option__box"></span><span class="q-option__label">No, nunca</span></label>
+              <label class="q-option"><input type="radio" name="bib_uso_ia" value="Sí personal"><span class="q-option__box"></span><span class="q-option__label">Sí, pero solo en el ámbito personal</span></label>
+              <label class="q-option"><input type="radio" name="bib_uso_ia" value="Sí trabajo ocasional"><span class="q-option__box"></span><span class="q-option__label">Sí, alguna vez en el trabajo para algo concreto</span></label>
+              <label class="q-option"><input type="radio" name="bib_uso_ia" value="Sí trabajo habitual"><span class="q-option__box"></span><span class="q-option__label">Sí, la uso con regularidad en mi trabajo</span></label>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 6 · Clave</p>
+            <p class="q-block__text">Si has usado IA en el trabajo, ¿para qué fue exactamente?</p>
+            <p class="q-block__note">Si nunca la has usado, escribe "nunca"</p>
+            <textarea class="q-open" name="bib_uso_concreto" placeholder="Ej: Usé ChatGPT para generar recomendaciones de lectura según nivel..." rows="3"></textarea>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 7 · Discriminante</p>
+            <p class="q-block__text">¿Qué sistemas de gestión de biblioteca usas?</p>
+            <div class="q-options q-options--grid">
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_sistemas" value="OPAC"><span class="q-option__box"></span><span class="q-option__label">OPAC (catálogo online)</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_sistemas" value="Préstamos"><span class="q-option__box"></span><span class="q-option__label">Sistema de gestión de préstamos</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_sistemas" value="Reservas"><span class="q-option__box"></span><span class="q-option__label">Gestión de reservas de espacios</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_sistemas" value="Fondos digitales"><span class="q-option__box"></span><span class="q-option__label">Plataforma de recursos digitales</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_sistemas" value="No usamos sistema"><span class="q-option__box"></span><span class="q-option__label">No usamos sistema informático</span></label>
+            </div>
+          </div>
+
+          <div class="q-block" style="border:2px solid #D9534F;background:#FDF2F2">
+            <p class="q-block__num" style="color:#D9534F">Pregunta 8 · Privacidad</p>
+            <p class="q-block__text" style="font-weight:600">¿Has introducido datos de usuarios o préstamos en herramientas de IA?</p>
+            <p class="q-block__note">Anónima. Objetivo: detectar riesgos de privacidad.</p>
+            <div class="q-options">
+              <label class="q-option"><input type="radio" name="bib_datos_privados" value="No"><span class="q-option__box"></span><span class="q-option__label">No, nunca.</span></label>
+              <label class="q-option"><input type="radio" name="bib_datos_privados" value="Posiblemente"><span class="q-option__box"></span><span class="q-option__label">Posiblemente sí, sin ser consciente.</span></label>
+              <label class="q-option"><input type="radio" name="bib_datos_privados" value="Sí"><span class="q-option__box"></span><span class="q-option__label">Sí, para agilizar algún proceso.</span></label>
+              <label class="q-option"><input type="radio" name="bib_datos_privados" value="No sé"><span class="q-option__box"></span><span class="q-option__label">No sé qué se considera dato personal.</span></label>
+            </div>
+          </div>
+
+          <div class="q-nav"><button type="button" class="btn btn--outline" data-prev="section-0">← Anterior</button><span class="q-nav__info"></span><button type="button" class="btn btn--primary" data-next="section-B2">Siguiente →</button></div>
+        </div>
+
+        <!-- B2: Aplicaciones de IA en Biblioteca -->
+        <div class="q-section camino-biblioteca" id="section-B2">
+          <div class="q-section__header">
+            <div class="q-section__letter q-section__letter--C">3</div>
+            <div class="q-section__info">
+              <p class="q-section__name">Aplicaciones de IA en Biblioteca</p>
+              <p class="q-section__desc">Cómo la IA puede mejorar los servicios bibliotecarios</p>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 9 · Clave</p>
+            <p class="q-block__text">¿Para qué tareas usarías o usas IA en la biblioteca?</p>
+            <div class="q-options q-options--grid">
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Catalogación"><span class="q-option__box"></span><span class="q-option__label">Catalogación y clasificación de materiales</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Búsqueda semántica"><span class="q-option__box"></span><span class="q-option__label">Búsqueda semántica en el catálogo</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Recomendaciones"><span class="q-option__box"></span><span class="q-option__label">Recomendaciones personalizadas a usuarios</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Chatbot"><span class="q-option__box"></span><span class="q-option__label">Chatbot para consultas frecuentes</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Reservas"><span class="q-option__box"></span><span class="q-option__label">Gestión automática de reservas</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Recordatorios"><span class="q-option__box"></span><span class="q-option__label">Recordatorios automáticos de devolución</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Selección"><span class="q-option__box"></span><span class="q-option__label">Análisis de tendencias para adquisiciones</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Digitalización"><span class="q-option__box"></span><span class="q-option__label">OCR y digitalización de documentos</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Transcripción"><span class="q-option__box"></span><span class="q-option__label">Transcripción de materiales audiovisuales</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="bib_aplicaciones" value="Metadata"><span class="q-option__box"></span><span class="q-option__label">Generación automática de metadata</span></label>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 10</p>
+            <p class="q-block__text">¿Qué porcentaje de las tareas de catalogación y gestión crees que podría automatizarse con IA?</p>
+            <div class="q-options">
+              <label class="q-option"><input type="radio" name="bib_pct_automatizable" value="Menos del 20%"><span class="q-option__box"></span><span class="q-option__label">Menos del 20% - Requiere criterio profesional</span></label>
+              <label class="q-option"><input type="radio" name="bib_pct_automatizable" value="20-40%"><span class="q-option__box"></span><span class="q-option__label">Entre 20-40% - Tareas de apoyo</span></label>
+              <label class="q-option"><input type="radio" name="bib_pct_automatizable" value="40-60%"><span class="q-option__box"></span><span class="q-option__label">Entre 40-60% - Bastantes tareas repetitivas</span></label>
+              <label class="q-option"><input type="radio" name="bib_pct_automatizable" value="Más del 60%"><span class="q-option__box"></span><span class="q-option__label">Más del 60% - Gran parte es procedimental</span></label>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 11 · Chatbot bibliotecario</p>
+            <p class="q-block__text">Imagina un chatbot que responde automáticamente preguntas sobre horarios, ubicación de libros, disponibilidad y genera recomendaciones de lectura según el nivel del estudiante. ¿Cómo lo valorarías?</p>
+            <div class="q-options">
+              <label class="q-option"><input type="radio" name="bib_chatbot" value="Muy positivo"><span class="q-option__box"></span><span class="q-option__label">Muy positivo: mejoraría mucho el servicio</span></label>
+              <label class="q-option"><input type="radio" name="bib_chatbot" value="Positivo con reservas"><span class="q-option__box"></span><span class="q-option__label">Positivo, pero me preocupa que dé respuestas incorrectas</span></label>
+              <label class="q-option"><input type="radio" name="bib_chatbot" value="Neutro"><span class="q-option__box"></span><span class="q-option__label">Neutro: no veo claramente la ventaja</span></label>
+              <label class="q-option"><input type="radio" name="bib_chatbot" value="Negativo"><span class="q-option__box"></span><span class="q-option__label">Negativo: los usuarios necesitan atención humana</span></label>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 12 · Búsqueda inteligente</p>
+            <p class="q-block__text">¿Sería útil un sistema que permita buscar libros por nivel de dificultad, tema gramatical, o incluso "libros similares a X que me gustaron"?</p>
+            <div class="q-options">
+              <label class="q-option"><input type="radio" name="bib_busqueda" value="Muy útil"><span class="q-option__box"></span><span class="q-option__label">Muy útil: ahorraría mucho tiempo de búsqueda</span></label>
+              <label class="q-option"><input type="radio" name="bib_busqueda" value="Útil"><span class="q-option__box"></span><span class="q-option__label">Útil, pero el catálogo actual es suficiente</span></label>
+              <label class="q-option"><input type="radio" name="bib_busqueda" value="No prioritario"><span class="q-option__box"></span><span class="q-option__label">No es lo más prioritario ahora</span></label>
+              <label class="q-option"><input type="radio" name="bib_busqueda" value="No necesario"><span class="q-option__box"></span><span class="q-option__label">No es necesario, el sistema actual funciona bien</span></label>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 13 · Abierta</p>
+            <p class="q-block__text">¿Qué tarea concreta de tu trabajo diario te gustaría que se pudiera automatizar con IA?</p>
+            <textarea class="q-open" name="bib_tarea_automatizar" placeholder="Ej: Generar fichas catalográficas automáticamente..." rows="3"></textarea>
+          </div>
+
+          <div class="q-nav"><button type="button" class="btn btn--outline" data-prev="section-B1">← Anterior</button><span class="q-nav__info"></span><button type="button" class="btn btn--primary" data-next="section-B3">Siguiente →</button></div>
+        </div>
+
+        <!-- B3: Actitudes y Formación -->
+        <div class="q-section camino-biblioteca" id="section-B3">
+          <div class="q-section__header">
+            <div class="q-section__letter" style="background:#6C3483">4</div>
+            <div class="q-section__info">
+              <p class="q-section__name">Actitudes y necesidades de formación</p>
+              <p class="q-section__desc">1 = Totalmente en desacuerdo · 5 = Totalmente de acuerdo</p>
+            </div>
+          </div>
+
+          <div class="q-block">
+            <div class="q-likert"><table>
+              <thead><tr><th>Enunciado</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead>
+              <tbody>
+                <tr><td>P14. La IA puede mejorar significativamente los servicios bibliotecarios del CLM.</td>
+                  <td><input type="radio" name="bib_act1" value="1" id="bib_act1-1"><label for="bib_act1-1">1</label></td><td><input type="radio" name="bib_act1" value="2" id="bib_act1-2"><label for="bib_act1-2">2</label></td><td><input type="radio" name="bib_act1" value="3" id="bib_act1-3"><label for="bib_act1-3">3</label></td><td><input type="radio" name="bib_act1" value="4" id="bib_act1-4"><label for="bib_act1-4">4</label></td><td><input type="radio" name="bib_act1" value="5" id="bib_act1-5"><label for="bib_act1-5">5</label></td></tr>
+                <tr><td>P15. Me preocupa que la IA pueda reemplazar parte del trabajo de la biblioteca.</td>
+                  <td><input type="radio" name="bib_act2" value="1" id="bib_act2-1"><label for="bib_act2-1">1</label></td><td><input type="radio" name="bib_act2" value="2" id="bib_act2-2"><label for="bib_act2-2">2</label></td><td><input type="radio" name="bib_act2" value="3" id="bib_act2-3"><label for="bib_act2-3">3</label></td><td><input type="radio" name="bib_act2" value="4" id="bib_act2-4"><label for="bib_act2-4">4</label></td><td><input type="radio" name="bib_act2" value="5" id="bib_act2-5"><label for="bib_act2-5">5</label></td></tr>
+                <tr><td>P16. Me preocupa que la IA pueda dar recomendaciones inadecuadas o sesgadas.</td>
+                  <td><input type="radio" name="bib_act3" value="1" id="bib_act3-1"><label for="bib_act3-1">1</label></td><td><input type="radio" name="bib_act3" value="2" id="bib_act3-2"><label for="bib_act3-2">2</label></td><td><input type="radio" name="bib_act3" value="3" id="bib_act3-3"><label for="bib_act3-3">3</label></td><td><input type="radio" name="bib_act3" value="4" id="bib_act3-4"><label for="bib_act3-4">4</label></td><td><input type="radio" name="bib_act3" value="5" id="bib_act3-5"><label for="bib_act3-5">5</label></td></tr>
+                <tr><td>P17. Me preocupa la privacidad de los datos de préstamos al usar sistemas con IA.</td>
+                  <td><input type="radio" name="bib_act4" value="1" id="bib_act4-1"><label for="bib_act4-1">1</label></td><td><input type="radio" name="bib_act4" value="2" id="bib_act4-2"><label for="bib_act4-2">2</label></td><td><input type="radio" name="bib_act4" value="3" id="bib_act4-3"><label for="bib_act4-3">3</label></td><td><input type="radio" name="bib_act4" value="4" id="bib_act4-4"><label for="bib_act4-4">4</label></td><td><input type="radio" name="bib_act4" value="5" id="bib_act4-5"><label for="bib_act4-5">5</label></td></tr>
+                <tr><td>P18. Estaría dispuesto/a a formarme en IA aplicada a bibliotecas si el CLM lo ofreciera.</td>
+                  <td><input type="radio" name="bib_act5" value="1" id="bib_act5-1"><label for="bib_act5-1">1</label></td><td><input type="radio" name="bib_act5" value="2" id="bib_act5-2"><label for="bib_act5-2">2</label></td><td><input type="radio" name="bib_act5" value="3" id="bib_act5-3"><label for="bib_act5-3">3</label></td><td><input type="radio" name="bib_act5" value="4" id="bib_act5-4"><label for="bib_act5-4">4</label></td><td><input type="radio" name="bib_act5" value="5" id="bib_act5-5"><label for="bib_act5-5">5</label></td></tr>
+              </tbody>
+            </table></div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 19 · Necesidades de formación · 1 = Nada · 5 = Mucho</p>
+            <div class="q-likert"><table>
+              <thead><tr><th>¿Cuánto necesitas formación en…?</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead>
+              <tbody>
+                <tr><td>Catalogación asistida por IA</td>
+                  <td><input type="radio" name="bib_nec1" value="1" id="bib_nec1-1"><label for="bib_nec1-1">1</label></td><td><input type="radio" name="bib_nec1" value="2" id="bib_nec1-2"><label for="bib_nec1-2">2</label></td><td><input type="radio" name="bib_nec1" value="3" id="bib_nec1-3"><label for="bib_nec1-3">3</label></td><td><input type="radio" name="bib_nec1" value="4" id="bib_nec1-4"><label for="bib_nec1-4">4</label></td><td><input type="radio" name="bib_nec1" value="5" id="bib_nec1-5"><label for="bib_nec1-5">5</label></td></tr>
+                <tr><td>Búsqueda semántica y recomendaciones</td>
+                  <td><input type="radio" name="bib_nec2" value="1" id="bib_nec2-1"><label for="bib_nec2-1">1</label></td><td><input type="radio" name="bib_nec2" value="2" id="bib_nec2-2"><label for="bib_nec2-2">2</label></td><td><input type="radio" name="bib_nec2" value="3" id="bib_nec2-3"><label for="bib_nec2-3">3</label></td><td><input type="radio" name="bib_nec2" value="4" id="bib_nec2-4"><label for="bib_nec2-4">4</label></td><td><input type="radio" name="bib_nec2" value="5" id="bib_nec2-5"><label for="bib_nec2-5">5</label></td></tr>
+                <tr><td>OCR y digitalización de documentos</td>
+                  <td><input type="radio" name="bib_nec3" value="1" id="bib_nec3-1"><label for="bib_nec3-1">1</label></td><td><input type="radio" name="bib_nec3" value="2" id="bib_nec3-2"><label for="bib_nec3-2">2</label></td><td><input type="radio" name="bib_nec3" value="3" id="bib_nec3-3"><label for="bib_nec3-3">3</label></td><td><input type="radio" name="bib_nec3" value="4" id="bib_nec3-4"><label for="bib_nec3-4">4</label></td><td><input type="radio" name="bib_nec3" value="5" id="bib_nec3-5"><label for="bib_nec3-5">5</label></td></tr>
+                <tr><td>Generación de metadata y resúmenes automáticos</td>
+                  <td><input type="radio" name="bib_nec4" value="1" id="bib_nec4-1"><label for="bib_nec4-1">1</label></td><td><input type="radio" name="bib_nec4" value="2" id="bib_nec4-2"><label for="bib_nec4-2">2</label></td><td><input type="radio" name="bib_nec4" value="3" id="bib_nec4-3"><label for="bib_nec4-3">3</label></td><td><input type="radio" name="bib_nec4" value="4" id="bib_nec4-4"><label for="bib_nec4-4">4</label></td><td><input type="radio" name="bib_nec4" value="5" id="bib_nec4-5"><label for="bib_nec4-5">5</label></td></tr>
+                <tr><td>Análisis de uso y estadísticas con IA</td>
+                  <td><input type="radio" name="bib_nec5" value="1" id="bib_nec5-1"><label for="bib_nec5-1">1</label></td><td><input type="radio" name="bib_nec5" value="2" id="bib_nec5-2"><label for="bib_nec5-2">2</label></td><td><input type="radio" name="bib_nec5" value="3" id="bib_nec5-3"><label for="bib_nec5-3">3</label></td><td><input type="radio" name="bib_nec5" value="4" id="bib_nec5-4"><label for="bib_nec5-4">4</label></td><td><input type="radio" name="bib_nec5" value="5" id="bib_nec5-5"><label for="bib_nec5-5">5</label></td></tr>
+                <tr><td>Privacidad y protección de datos en sistemas bibliotecarios</td>
+                  <td><input type="radio" name="bib_nec6" value="1" id="bib_nec6-1"><label for="bib_nec6-1">1</label></td><td><input type="radio" name="bib_nec6" value="2" id="bib_nec6-2"><label for="bib_nec6-2">2</label></td><td><input type="radio" name="bib_nec6" value="3" id="bib_nec6-3"><label for="bib_nec6-3">3</label></td><td><input type="radio" name="bib_nec6" value="4" id="bib_nec6-4"><label for="bib_nec6-4">4</label></td><td><input type="radio" name="bib_nec6" value="5" id="bib_nec6-5"><label for="bib_nec6-5">5</label></td></tr>
+              </tbody>
+            </table></div>
+          </div>
+
+          <div class="q-block">
+            <p class="q-block__num">Pregunta 20 · Abierta</p>
+            <p class="q-block__text">¿Hay algo más que quieras añadir sobre el uso de IA en la biblioteca del CLM?</p>
+            <textarea class="q-open" name="bib_observaciones" placeholder="Escribe libremente…" rows="4"></textarea>
+          </div>
+
+          <div class="q-nav">
+            <button type="button" class="btn btn--outline" data-prev="section-B2">← Anterior</button>
+            <span class="q-nav__info"></span>
+            <button type="submit" class="btn btn--primary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Enviar diagnóstico
+            </button>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════
              CAMINO G: PROGRAMACIÓN Y DESARROLLO
              Secciones: DEV1, DEV2, DEV3
         ══════════════════════════════════════════ -->
@@ -1822,6 +2044,13 @@
       tipo: 'auditoria-disenyo-clm',
       secciones: ['section-0', 'section-DG1', 'section-DG2', 'section-DG3'],
       tabs: ['Perfil', 'Uso IA en Diseño', 'Proyectos Creativos', 'Actitudes'],
+      badge: '📋 4 bloques'
+    },
+    biblioteca: {
+      label: 'Biblioteca',
+      tipo: 'auditoria-biblioteca-clm',
+      secciones: ['section-0', 'section-B1', 'section-B2', 'section-B3'],
+      tabs: ['Perfil', 'Uso IA en Biblioteca', 'Aplicaciones', 'Actitudes'],
       badge: '📋 4 bloques'
     },
     desarrollo: {

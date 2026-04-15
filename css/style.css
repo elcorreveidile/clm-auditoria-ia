@@ -2052,3 +2052,12 @@ footer {
 .camino-direccion.active {
   display: block;
 }
+
+/* Camino Biblioteca */
+.camino-biblioteca {
+  display: none;
+}
+
+.camino-biblioteca.active {
+  display: block;
+}
