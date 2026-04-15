@@ -2032,3 +2032,23 @@ footer {
     margin-right: .75rem !important;
   }
 }
+
+/* Nuevos caminos */
+.camino-marketing,
+.camino-conserjeria,
+.camino-disenyo,
+.camino-desarrollo,
+.camino-sistemas,
+.camino-direccion {
+  display: none;
+}
+
+/* Mostrar cuando está activo */
+.camino-marketing.active,
+.camino-conserjeria.active,
+.camino-disenyo.active,
+.camino-desarrollo.active,
+.camino-sistemas.active,
+.camino-direccion.active {
+  display: block;
+}
