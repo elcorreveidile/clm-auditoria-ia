@@ -1816,67 +1816,65 @@
 
           <div class="q-block">
             <p class="q-block__num">Pregunta 3 · Discriminante</p>
-            <p class="q-block__text">¿Qué herramientas de IA usas habitualmente en tu flujo de trabajo?</p>
+            <p class="q-block__text">¿Qué herramientas de IA usas habitualmente en tu trabajo de sistemas?</p>
             <div class="q-options q-options--grid">
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="GitHub Copilot"><span class="q-option__box"></span><span class="q-option__label">GitHub Copilot</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Claude Code"><span class="q-option__box"></span><span class="q-option__label">Claude Code</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Cursor"><span class="q-option__box"></span><span class="q-option__label">Cursor</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Codex / OpenAI API"><span class="q-option__box"></span><span class="q-option__label">Codex / OpenAI API</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="ChatGPT web"><span class="q-option__box"></span><span class="q-option__label">ChatGPT (interfaz web)</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Claude web"><span class="q-option__box"></span><span class="q-option__label">Claude (interfaz web)</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Midjourney"><span class="q-option__box"></span><span class="q-option__label">Midjourney</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Adobe Firefly"><span class="q-option__box"></span><span class="q-option__label">DALL-E / Adobe Firefly</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Runway"><span class="q-option__box"></span><span class="q-option__label">Runway / Sora (vídeo)</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="ElevenLabs"><span class="q-option__box"></span><span class="q-option__label">ElevenLabs (audio)</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Copilot Microsoft"><span class="q-option__box"></span><span class="q-option__label">Microsoft Copilot</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="herramientas_ia" value="Ninguna"><span class="q-option__box"></span><span class="q-option__label">Ninguna actualmente</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="ChatGPT web"><span class="q-option__box"></span><span class="q-option__label">ChatGPT (interfaz web) para troubleshooting</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="Claude web"><span class="q-option__box"></span><span class="q-option__label">Claude (interfaz web) para documentación</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="Copilot Microsoft"><span class="q-option__box"></span><span class="q-option__label">Microsoft Copilot para diagnóstico de sistemas</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="Monitorización IA"><span class="q-option__box"></span><span class="q-option__label">Herramientas de monitorización con IA (Datadog, New Relic)</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="Seguridad IA"><span class="q-option__box"></span><span class="q-option__label">Herramientas de seguridad con IA (detección de amenazas)</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="Automatización IA"><span class="q-option__box"></span><span class="q-option__label">Herramientas de automatización con IA (Ansible, Terraform)</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="Chatbot soporte"><span class="q-option__box"></span><span class="q-option__label">Chatbots para soporte técnico interno</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="Análisis logs"><span class="q-option__box"></span><span class="q-option__label">Herramientas de análisis de logs con IA</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_herramientas" value="Ninguna"><span class="q-option__box"></span><span class="q-option__label">Ninguna actualmente</span></label>
             </div>
-            <textarea class="q-open" name="herramientas_otras" placeholder="¿Alguna otra no listada?" rows="2" style="margin-top:.75rem"></textarea>
+            <textarea class="q-open" name="sis_herramientas_otras" placeholder="¿Alguna otra no listada?" rows="2" style="margin-top:.75rem"></textarea>
           </div>
 
           <div class="q-block">
             <p class="q-block__num">Pregunta 4 · Discriminante</p>
-            <p class="q-block__text">¿Desde dónde trabajas con IA habitualmente?</p>
+            <p class="q-block__text">¿Desde dónde trabajas con IA habitualmente en sistemas?</p>
             <div class="q-options q-options--grid">
-              <label class="q-option q-option--check"><input type="checkbox" name="modo_uso" value="Terminal"><span class="q-option__box"></span><span class="q-option__label">Terminal / línea de comandos</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="modo_uso" value="Plugin editor"><span class="q-option__box"></span><span class="q-option__label">Plugin en el editor (VS Code, JetBrains…)</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="modo_uso" value="Interfaz web"><span class="q-option__box"></span><span class="q-option__label">Interfaz web del modelo</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="modo_uso" value="API propia"><span class="q-option__box"></span><span class="q-option__label">Llamadas directas a la API en mis proyectos</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="modo_uso" value="Herramienta integrada"><span class="q-option__box"></span><span class="q-option__label">Herramienta con IA integrada (Canva, Figma, Adobe…)</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_modo_uso" value="Terminal"><span class="q-option__box"></span><span class="q-option__label">Terminal / línea de comandos para scripting</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_modo_uso" value="Interfaz web"><span class="q-option__box"></span><span class="q-option__label">Interfaz web del modelo (ChatGPT, Claude)</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_modo_uso" value="API monitorización"><span class="q-option__box"></span><span class="q-option__label">API en herramientas de monitorización</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_modo_uso" value="Panel administración"><span class="q-option__box"></span><span class="q-option__label">Panel de administración de servicios con IA</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_modo_uso" value="No uso"><span class="q-option__box"></span><span class="q-option__label">No uso IA en mi trabajo de sistemas</span></label>
             </div>
           </div>
 
           <div class="q-block">
             <p class="q-block__num">Pregunta 5 · Discriminante</p>
-            <p class="q-block__text">¿Has integrado alguna vez una API de IA en un proyecto propio o profesional?</p>
+            <p class="q-block__text">¿Has integrado alguna vez una API de IA en sistemas de infraestructura o monitorización?</p>
             <div class="q-options">
-              <label class="q-option"><input type="radio" name="api_integracion" value="Sí en producción"><span class="q-option__box"></span><span class="q-option__label">Sí, en proyectos en producción.</span></label>
-              <label class="q-option"><input type="radio" name="api_integracion" value="Sí en pruebas"><span class="q-option__box"></span><span class="q-option__label">Sí, en proyectos de prueba o personales.</span></label>
-              <label class="q-option"><input type="radio" name="api_integracion" value="No pero sé cómo"><span class="q-option__box"></span><span class="q-option__label">No, pero sé cómo hacerlo y podría.</span></label>
-              <label class="q-option"><input type="radio" name="api_integracion" value="No me aplica"><span class="q-option__box"></span><span class="q-option__label">No es parte de mi perfil.</span></label>
+              <label class="q-option"><input type="radio" name="sis_api" value="Sí en producción"><span class="q-option__box"></span><span class="q-option__label">Sí, en sistemas en producción.</span></label>
+              <label class="q-option"><input type="radio" name="sis_api" value="Sí en pruebas"><span class="q-option__box"></span><span class="q-option__label">Sí, en sistemas de prueba o personales.</span></label>
+              <label class="q-option"><input type="radio" name="sis_api" value="No pero sé cómo"><span class="q-option__box"></span><span class="q-option__label">No, pero sé cómo hacerlo y podría.</span></label>
+              <label class="q-option"><input type="radio" name="sis_api" value="No me aplica"><span class="q-option__box"></span><span class="q-option__label">No es parte de mi trabajo actual.</span></label>
             </div>
           </div>
 
           <div class="q-block">
             <p class="q-block__num">Pregunta 6</p>
-            <p class="q-block__text">¿Para qué usas la IA en tu trabajo? (Marca todas las que apliquen)</p>
+            <p class="q-block__text">¿Para qué usas la IA en tu trabajo de sistemas? (Marca todas las que apliquen)</p>
             <div class="q-options q-options--grid">
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Escribir código"><span class="q-option__box"></span><span class="q-option__label">Escribir o completar código</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Depurar"><span class="q-option__box"></span><span class="q-option__label">Depurar y corregir errores</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Documentar"><span class="q-option__box"></span><span class="q-option__label">Documentar código o sistemas</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Seguridad"><span class="q-option__box"></span><span class="q-option__label">Análisis de seguridad</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Diseño generativo"><span class="q-option__box"></span><span class="q-option__label">Generación de imágenes o recursos visuales</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Vídeo audio"><span class="q-option__box"></span><span class="q-option__label">Producción de vídeo o audio</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Automatización"><span class="q-option__box"></span><span class="q-option__label">Automatización de procesos</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Agentes"><span class="q-option__box"></span><span class="q-option__label">Desarrollo de agentes o chatbots</span></label>
-              <label class="q-option q-option--check"><input type="checkbox" name="usos_tecnicos" value="Ninguno"><span class="q-option__box"></span><span class="q-option__label">Ninguno todavía</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Troubleshooting"><span class="q-option__box"></span><span class="q-option__label">Troubleshooting y diagnóstico de incidencias</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Análisis logs"><span class="q-option__box"></span><span class="q-option__label">Análisis de logs y detección de anomalías</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Documentación sistemas"><span class="q-option__box"></span><span class="q-option__label">Documentar sistemas y procesos de TI</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Seguridad"><span class="q-option__box"></span><span class="q-option__label">Análisis de seguridad y detección de amenazas</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Automatización"><span class="q-option__box"></span><span class="q-option__label">Automatización de procesos de mantenimiento</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Monitorización"><span class="q-option__box"></span><span class="q-option__label">Monitorización predictiva de infraestructura</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Soporte usuarios"><span class="q-option__box"></span><span class="q-option__label">Chatbot para soporte a usuarios</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Gestión incidencias"><span class="q-option__box"></span><span class="q-option__label">Clasificación y triaje automático de incidencias</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Optimización"><span class="q-option__box"></span><span class="q-option__label">Optimización de recursos y rendimiento</span></label>
+              <label class="q-option q-option--check"><input type="checkbox" name="sis_usos" value="Ninguno"><span class="q-option__box"></span><span class="q-option__label">Ninguno todavía</span></label>
             </div>
           </div>
 
           <div class="q-block">
             <p class="q-block__num">Pregunta 7 · Abierta</p>
-            <p class="q-block__text">Describe el caso de uso de IA más avanzado que hayas implementado o probado en tu trabajo.</p>
-            <textarea class="q-open" name="caso_uso_avanzado" placeholder="Ej: Monté un pipeline con la API de OpenAI para clasificar automáticamente las consultas entrantes…" rows="4"></textarea>
+            <p class="q-block__text">Describe el caso de uso de IA más avanzado que hayas implementado o probado en sistemas.</p>
+            <textarea class="q-open" name="sis_caso_avanzado" placeholder="Ej: Monté un sistema de análisis de logs con IA que detecta anomalías en los servidores antes de causar caídas…" rows="4"></textarea>
           </div>
 
           <div class="q-nav"><button type="button" class="btn btn--outline" data-prev="section-0">← Anterior</button><span class="q-nav__info"></span><button type="button" class="btn btn--primary" data-next="section-T2">Siguiente →</button></div>
